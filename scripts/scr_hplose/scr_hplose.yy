@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_hplose",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_hplose",
+  "parent":{
+    "name":"playerhp_script",
+    "path":"folders/Scripts/playerhp_script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
