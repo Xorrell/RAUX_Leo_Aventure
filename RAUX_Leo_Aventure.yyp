@@ -77,6 +77,8 @@
   "resources":[
     {"id":{"name":"MASTER","path":"objects/MASTER/MASTER.yy",},},
     {"id":{"name":"obj_button_titlescreen","path":"objects/obj_button_titlescreen/obj_button_titlescreen.yy",},},
+    {"id":{"name":"obj_col_h","path":"objects/obj_col_h/obj_col_h.yy",},},
+    {"id":{"name":"obj_col_v","path":"objects/obj_col_v/obj_col_v.yy",},},
     {"id":{"name":"obj_enm_dummy","path":"objects/obj_enm_dummy/obj_enm_dummy.yy",},},
     {"id":{"name":"obj_mngr_hp","path":"objects/obj_mngr_hp/obj_mngr_hp.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -94,6 +96,8 @@
     {"id":{"name":"scr_hplose","path":"scripts/scr_hplose/scr_hplose.yy",},},
     {"id":{"name":"balloon","path":"sprites/balloon/balloon.yy",},},
     {"id":{"name":"button_titlescreen","path":"sprites/button_titlescreen/button_titlescreen.yy",},},
+    {"id":{"name":"collider_h","path":"sprites/collider_h/collider_h.yy",},},
+    {"id":{"name":"collider_v","path":"sprites/collider_v/collider_v.yy",},},
     {"id":{"name":"dummy","path":"sprites/dummy/dummy.yy",},},
     {"id":{"name":"grid","path":"sprites/grid/grid.yy",},},
     {"id":{"name":"hp","path":"sprites/hp/hp.yy",},},
