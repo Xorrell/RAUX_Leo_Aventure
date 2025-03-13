@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"SCENEMODE",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"SCENEMODE",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objets/Entities/Player.yy",
+    "name":"DEBUG",
+    "path":"folders/Objets/DEBUG.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"player",
-    "path":"sprites/player/player.yy",
+    "name":"tomato",
+    "path":"sprites/tomato/tomato.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

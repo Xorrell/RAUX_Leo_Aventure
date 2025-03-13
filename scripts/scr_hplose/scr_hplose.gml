@@ -28,8 +28,8 @@ function scr_hplose(amount) {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 64398A25
 		/// @DnDApplyTo : {obj_mngr_hp}
 		/// @DnDParent : 08EB5637
-		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "steps" "80"
 		with(obj_mngr_hp) {
-		alarm_set(0, 120);
+		alarm_set(0, 80);
 		
 		}}}

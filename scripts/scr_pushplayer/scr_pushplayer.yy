@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pushplayer",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_pushplayer",
+  "parent":{
+    "name":"script_playerhp",
+    "path":"folders/Scripts/script_playerhp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
