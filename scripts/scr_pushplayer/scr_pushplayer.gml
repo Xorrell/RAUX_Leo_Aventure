@@ -3,4 +3,5 @@
 /// @DnDHash : 49BF4542
 /// @DnDComment : 
 /// @DnDArgument : "funcName" "scr_pushplayer"
-function scr_pushplayer() {}
+/// @DnDArgument : "arg" "amount=1"
+function scr_pushplayer(amount=1) {}

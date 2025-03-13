@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"SCENEMODE",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dark",
+  "eventList":[],
   "managed":true,
-  "name":"SCENEMODE",
+  "name":"obj_dark",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objets/DEBUG.yy",
+    "name":"StageMode",
+    "path":"folders/Objets/GUI/Gameplay/StageMode.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tomato",
-    "path":"sprites/tomato/tomato.yy",
+    "name":"spr_dark",
+    "path":"sprites/spr_dark/spr_dark.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
