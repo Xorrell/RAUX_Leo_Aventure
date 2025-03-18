@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"scr_pushplayer",
   "parent":{
-    "name":"script_playerhp",
-    "path":"folders/Scripts/script_playerhp.yy",
+    "name":"script_enemybehavior",
+    "path":"folders/Scripts/script_enemybehavior.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

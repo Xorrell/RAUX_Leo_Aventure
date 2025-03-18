@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_titlescreen",
+  "%Name":"obj_button_options",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_titlescreen",
+  "name":"obj_button_options",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
@@ -26,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"optionsview","filters":[],"listItems":[],"multiselect":false,"name":"optionsview","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"button_titlescreen",
-    "path":"sprites/button_titlescreen/button_titlescreen.yy",
+    "name":"optionsgear",
+    "path":"sprites/optionsgear/optionsgear.yy",
   },
   "spriteMaskId":null,
   "visible":true,

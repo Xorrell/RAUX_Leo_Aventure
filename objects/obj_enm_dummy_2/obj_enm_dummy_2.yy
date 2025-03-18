@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enm_dummy",
+  "%Name":"obj_enm_dummy_2",
   "eventList":[],
   "managed":true,
-  "name":"obj_enm_dummy",
+  "name":"obj_enm_dummy_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"dummy",
-    "path":"sprites/dummy/dummy.yy",
+    "name":"dummy_2",
+    "path":"sprites/dummy_2/dummy_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
