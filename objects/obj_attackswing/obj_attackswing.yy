@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_keyDebug",
+  "%Name":"obj_attackswing",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_keyDebug",
+  "name":"obj_attackswing",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objets/DEBUG.yy",
+    "name":"Sword",
+    "path":"folders/Objets/Entities/Effects/Sword.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"swing",
+    "path":"sprites/swing/swing.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -79,6 +79,7 @@
   "name":"RAUX_Leo_Aventure",
   "resources":[
     {"id":{"name":"MASTER","path":"objects/MASTER/MASTER.yy",},},
+    {"id":{"name":"obj_attackswing","path":"objects/obj_attackswing/obj_attackswing.yy",},},
     {"id":{"name":"obj_button_options","path":"objects/obj_button_options/obj_button_options.yy",},},
     {"id":{"name":"obj_button_titlescreen","path":"objects/obj_button_titlescreen/obj_button_titlescreen.yy",},},
     {"id":{"name":"obj_col_h","path":"objects/obj_col_h/obj_col_h.yy",},},
@@ -142,6 +143,7 @@
     {"id":{"name":"stagelights","path":"sprites/stagelights/stagelights.yy",},},
     {"id":{"name":"stagesideleft","path":"sprites/stagesideleft/stagesideleft.yy",},},
     {"id":{"name":"stagesideright","path":"sprites/stagesideright/stagesideright.yy",},},
+    {"id":{"name":"swing","path":"sprites/swing/swing.yy",},},
     {"id":{"name":"target","path":"sprites/target/target.yy",},},
     {"id":{"name":"tileset_0","path":"sprites/tileset_0/tileset_0.yy",},},
     {"id":{"name":"tomato","path":"sprites/tomato/tomato.yy",},},
