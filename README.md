@@ -17,7 +17,7 @@ A l'instare de M. Leuquan, vous contrôllerez donc les évènements se déroulan
 | Z-Q-S-D | Se Déplacer | (Peut être modifié pour "W-A-S-D" dans les options)
 | K | Attaquer / Interagir
 | K (Enfoncé) | Attaque Spéciale | L'effet de l'Attaque Spéciale peut changer selon l'état de Nonokeke.
-| J | Mode "Cible Public" | La cible se déplacera sur les éléments le plus proche du joueur.
+| J | Mode "Cible Public" | La cible se déplacera sur l'élément le plus proche du joueur.
 | L | Changer d'Objet Projectile
 | M | Carte du Monde / Bâtiment
 
@@ -25,6 +25,3 @@ A l'instare de M. Leuquan, vous contrôllerez donc les évènements se déroulan
 | Bouton(s) | Fonction(s) | Information
 |-|-|-|
 | Joystick Gauche | Se Déplacer
-|
-|
-|

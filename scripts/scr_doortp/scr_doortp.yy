@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_doortp",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_doortp",
+  "parent":{
+    "name":"script_doortp",
+    "path":"folders/Scripts/script_doortp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

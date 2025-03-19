@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enm_dummy",
-  "eventList":[],
+  "%Name":"obj_enemy_prnt",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_enm_dummy",
+  "name":"obj_enemy_prnt",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objets/Entities/Enemies.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy_prnt",
-    "path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"dummy",
-    "path":"sprites/dummy/dummy.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

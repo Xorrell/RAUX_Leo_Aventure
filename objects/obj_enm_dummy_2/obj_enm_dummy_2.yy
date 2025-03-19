@@ -10,8 +10,8 @@
     "path":"folders/Objets/Entities/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_prt",
-    "path":"objects/obj_enemy_prt/obj_enemy_prt.yy",
+    "name":"obj_enemy_prnt",
+    "path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
