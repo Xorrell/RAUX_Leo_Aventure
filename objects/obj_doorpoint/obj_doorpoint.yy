@@ -9,10 +9,7 @@
     "name":"TP",
     "path":"folders/Objets/Entities/TP.yy",
   },
-  "parentObjectId":{
-    "name":"obj_door_prnt",
-    "path":"objects/obj_door_prnt/obj_door_prnt.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

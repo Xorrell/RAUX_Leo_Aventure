@@ -9,8 +9,9 @@ spatk_charge += 1;
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 5A3D7472
+/// @DnDDisabled : 1
 /// @DnDArgument : "msg" "spatk_charge"
-show_debug_message(string(spatk_charge));
+
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

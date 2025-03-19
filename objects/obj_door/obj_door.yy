@@ -3,7 +3,6 @@
   "%Name":"obj_door",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_door",
@@ -12,10 +11,7 @@
     "name":"TP",
     "path":"folders/Objets/Entities/TP.yy",
   },
-  "parentObjectId":{
-    "name":"obj_door_prnt",
-    "path":"objects/obj_door_prnt/obj_door_prnt.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,10 +25,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"door_ID","filters":[],"listItems":[
+        "\"none\"",
+      ],"multiselect":false,"name":"door_ID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"door",
     "path":"sprites/door/door.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_doortp",
+  "%Name":"scr_door_findID",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"scr_doortp",
+  "name":"scr_door_findID",
   "parent":{
     "name":"script_doortp",
     "path":"folders/Scripts/script_doortp.yy",

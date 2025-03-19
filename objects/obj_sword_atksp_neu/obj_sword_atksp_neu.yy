@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Sword_neu_SP",
-    "path":"folders/Objets/Entities/Effects/Sword_neu_SP.yy",
+    "path":"folders/Objets/Entities/Effects/Attacks/Sword_neu_SP.yy",
   },
   "parentObjectId":null,
   "persistent":false,

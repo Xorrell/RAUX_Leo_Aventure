@@ -8,8 +8,8 @@
   "name":"obj_col_v",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objets/Entities.yy",
+    "name":"Collisions",
+    "path":"folders/Objets/Entities/Collisions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

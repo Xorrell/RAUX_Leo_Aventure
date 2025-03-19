@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Sword",
-    "path":"folders/Objets/Entities/Effects/Sword.yy",
+    "path":"folders/Objets/Entities/Effects/Attacks/Sword.yy",
   },
   "parentObjectId":null,
   "persistent":false,
