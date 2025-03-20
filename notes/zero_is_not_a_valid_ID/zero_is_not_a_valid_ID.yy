@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"zero_is_not_a_valid_ID",
+  "name":"zero_is_not_a_valid_ID",
+  "parent":{
+    "name":"TP",
+    "path":"folders/Objets/Entities/TP.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
