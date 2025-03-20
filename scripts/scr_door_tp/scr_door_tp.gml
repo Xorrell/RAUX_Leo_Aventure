@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
 /// @DnDHash : 320882A5
-/// @DnDComment : 
+/// @DnDComment : Find the room to send the player in
 /// @DnDArgument : "funcName" "scr_door_tp"
 function scr_door_tp() {	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_vectortarget",
+  "%Name":"obj_keyM",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_vectortarget",
+  "name":"obj_keyM",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objets/Entities.yy",
+    "name":"DEBUG",
+    "path":"folders/Objets/DEBUG.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"vectortarget",
-    "path":"sprites/vectortarget/vectortarget.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

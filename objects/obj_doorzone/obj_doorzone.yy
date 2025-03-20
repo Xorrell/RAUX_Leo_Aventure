@@ -35,5 +35,5 @@
     "path":"sprites/doorzone/doorzone.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

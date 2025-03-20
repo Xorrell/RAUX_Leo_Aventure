@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dial",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_dial",
+  "parent":{
+    "name":"script_dialogue",
+    "path":"folders/Scripts/script_dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

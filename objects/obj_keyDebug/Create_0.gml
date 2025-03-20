@@ -67,3 +67,13 @@ instance_create_layer(-16, -16, "GUI", obj_keyJ);
 /// @DnDArgument : "layer" ""GUI""
 /// @DnDSaveInfo : "objectid" "obj_keyL"
 instance_create_layer(-16, -16, "GUI", obj_keyL);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 0ED5EF84
+/// @DnDArgument : "xpos" "-16"
+/// @DnDArgument : "ypos" "-16"
+/// @DnDArgument : "objectid" "obj_keyM"
+/// @DnDArgument : "layer" ""GUI""
+/// @DnDSaveInfo : "objectid" "obj_keyM"
+instance_create_layer(-16, -16, "GUI", obj_keyM);
