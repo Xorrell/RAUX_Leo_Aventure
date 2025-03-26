@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_doorzone",
+  "%Name":"obj_npczone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_doorzone",
+  "name":"obj_npczone",
   "overriddenProperties":[],
   "parent":{
-    "name":"TP",
-    "path":"folders/Objets/Entities/TP.yy",
+    "name":"NPCs",
+    "path":"folders/Objets/Entities/Characters/NPCs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"doorzone",
-    "path":"sprites/doorzone/doorzone.yy",
+    "name":"radius",
+    "path":"sprites/radius/radius.yy",
   },
   "spriteMaskId":null,
   "visible":true,
