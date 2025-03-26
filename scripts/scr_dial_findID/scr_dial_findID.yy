@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dial_findID",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_dial_findID",
+  "parent":{
+    "name":"script_dialogue",
+    "path":"folders/Scripts/script_dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

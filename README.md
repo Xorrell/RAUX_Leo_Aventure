@@ -25,3 +25,6 @@ A l'instare de M. Leuquan, vous contrôllerez donc les évènements se déroulan
 | Bouton(s) | Fonction(s) | Information
 |-|-|-|
 | Joystick Gauche | Se Déplacer
+
+Bugs connus:
+- Rester collé contre un mur ne descend pas la Charge d'Attaque Spéciale.

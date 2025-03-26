@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spatk_charge_viewer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_textbox",
+  "eventList":[],
   "managed":true,
-  "name":"obj_spatk_charge_viewer",
+  "name":"obj_textbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objets/DEBUG.yy",
+    "name":"Dialogue",
+    "path":"folders/Objets/GUI/Gameplay/Dialogue.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"textbox",
+    "path":"sprites/textbox/textbox.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spatk_charge_viewer",
+  "%Name":"obj_textbox_options",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spatk_charge_viewer",
+  "name":"obj_textbox_options",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objets/DEBUG.yy",
+    "name":"Options",
+    "path":"folders/Objets/GUI/Options.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"textbox_options",
+    "path":"sprites/textbox_options/textbox_options.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -34,5 +34,5 @@
     "path":"sprites/radius/radius.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

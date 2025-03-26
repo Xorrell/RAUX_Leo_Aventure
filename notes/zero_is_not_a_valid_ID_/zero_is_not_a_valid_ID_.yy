@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"zero_is_not_a_valid_ID_",
+  "name":"zero_is_not_a_valid_ID_",
+  "parent":{
+    "name":"NPCs",
+    "path":"folders/Objets/Entities/Characters/NPCs.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
