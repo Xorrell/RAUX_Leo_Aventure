@@ -9,8 +9,8 @@
   "name":"obj_vectortarget",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entities",
-    "path":"folders/Objets/Entities.yy",
+    "name":"Targetting",
+    "path":"folders/Objets/Entities/Targetting.yy",
   },
   "parentObjectId":null,
   "persistent":false,

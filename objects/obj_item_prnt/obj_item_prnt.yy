@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_thrw_tomato",
+  "%Name":"obj_item_prnt",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_thrw_tomato",
+  "name":"obj_item_prnt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Throwables",
-    "path":"folders/Objets/Entities/Items/Throwables.yy",
+    "name":"Collectables",
+    "path":"folders/Objets/Entities/Items/Collectables.yy",
   },
   "parentObjectId":{
     "name":"obj_mngr_items",
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"hp",
+    "path":"sprites/hp/hp.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

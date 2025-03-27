@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_npczone",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_npczone",
@@ -34,5 +34,5 @@
     "path":"sprites/radius/radius.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
