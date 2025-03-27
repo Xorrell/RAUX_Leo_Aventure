@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item_prnt",
+  "%Name":"obj_item_coin",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_item_prnt",
+  "name":"obj_item_coin",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectables",
     "path":"folders/Objets/Entities/Items/Collectables.yy",
   },
   "parentObjectId":{
-    "name":"obj_mngr_items",
-    "path":"objects/obj_mngr_items/obj_mngr_items.yy",
+    "name":"obj_item_prnt",
+    "path":"objects/obj_item_prnt/obj_item_prnt.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"hp",
-    "path":"sprites/hp/hp.yy",
+    "name":"coin",
+    "path":"sprites/coin/coin.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

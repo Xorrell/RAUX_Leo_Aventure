@@ -29,6 +29,7 @@
     {"$GMObjectProperty":"v1","%Name":"count_tomato","filters":[],"listItems":[],"multiselect":false,"name":"count_tomato","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"count_balloon","filters":[],"listItems":[],"multiselect":false,"name":"count_balloon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"count_pie","filters":[],"listItems":[],"multiselect":false,"name":"count_pie","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"count_money","filters":[],"listItems":[],"multiselect":false,"name":"count_money","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
