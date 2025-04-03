@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 783B0D0A
-/// @DnDArgument : "alpha" "-0.1"
+/// @DnDArgument : "alpha" "-0.025"
 /// @DnDArgument : "alpha_relative" "1"
-image_alpha += -0.1;
+image_alpha += -0.025;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

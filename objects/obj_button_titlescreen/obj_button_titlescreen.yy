@@ -14,7 +14,10 @@
     "name":"Buttons",
     "path":"folders/Objets/GUI/Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_button_prnt",
+    "path":"objects/obj_button_prnt/obj_button_prnt.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

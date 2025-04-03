@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_stepsfx",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_stepsfx",
+  "parent":{
+    "name":"stepsfx",
+    "path":"folders/Scripts/script_player/stepsfx.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

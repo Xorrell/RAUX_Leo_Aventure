@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"SceneMode",
-    "path":"folders/Sprites/GUI/SceneMode.yy",
+    "name":"GUI",
+    "path":"folders/Sprites/GUI.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

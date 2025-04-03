@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Damage",
-    "path":"folders/Objets/Entities/Effects/Damage.yy",
+    "path":"folders/Objets/GUI/Gameplay/Damage.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -13,3 +13,9 @@ instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_vectortarget)
 /// @DnDApplyTo : {obj_vectortarget}
 /// @DnDArgument : "alpha" "0"
 with(obj_vectortarget) image_alpha = 0;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 0F2AD60D
+/// @DnDArgument : "steps" "20"
+alarm_set(0, 20);

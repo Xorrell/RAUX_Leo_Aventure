@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"scr_hplose",
   "parent":{
-    "name":"script_playerhp",
-    "path":"folders/Scripts/script_playerhp.yy",
+    "name":"player_hp",
+    "path":"folders/Scripts/script_player/player_hp.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

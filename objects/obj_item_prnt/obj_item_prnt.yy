@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"hp",
-    "path":"sprites/hp/hp.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

@@ -1,9 +1,27 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D11B77C
-/// @DnDArgument : "var" "obj_mngr_scenemode.scenemode"
+/// @DnDArgument : "var" "scenemode"
 /// @DnDArgument : "value" "true"
-if(obj_mngr_scenemode.scenemode == true){	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+if(scenemode == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 631C6CBF
+	/// @DnDParent : 1D11B77C
+	/// @DnDArgument : "xpos" "obj_player.x"
+	/// @DnDArgument : "ypos" "obj_player.y"
+	/// @DnDArgument : "objectid" "obj_dark"
+	/// @DnDArgument : "layer" ""GameOver""
+	/// @DnDSaveInfo : "objectid" "obj_dark"
+	instance_create_layer(obj_player.x, obj_player.y, "GameOver", obj_dark);
+
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 12906CED
+	/// @DnDParent : 1D11B77C
+	/// @DnDArgument : "msg" ""true""
+	show_debug_message(string("true"));
+
+	/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
 	/// @DnDVersion : 1
 	/// @DnDHash : 73EAA97C
 	/// @DnDParent : 1D11B77C
@@ -22,15 +40,6 @@ if(obj_mngr_scenemode.scenemode == true){	/// @DnDAction : YoYo Games.Instance
 		/// @DnDHash : 7284D1CC
 		/// @DnDParent : 09C92DEB
 		draw_set_alpha(1);
-	
-		/// @DnDAction : YoYo Games.Drawing.Set_Color
-		/// @DnDVersion : 1
-		/// @DnDHash : 4B797FDA
-		/// @DnDParent : 09C92DEB
-		/// @DnDArgument : "color" "$FFD400FF"
-		draw_set_colour($FFD400FF & $ffffff);
-		var l4B797FDA_0=($FFD400FF >> 24);
-		draw_set_alpha(l4B797FDA_0 / $ff);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Line
 		/// @DnDVersion : 1
