@@ -23,6 +23,25 @@ function scr_hplose(amount) {	/// @DnDAction : YoYo Games.Common.If_Variable
 		obj_mngr_hp.player_hp += -amount;
 		obj_mngr_hp.is_inv = true;
 	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 0E1C9933
+		/// @DnDParent : 08EB5637
+		/// @DnDArgument : "xpos" "obj_player.x"
+		/// @DnDArgument : "ypos" "obj_player.y"
+		/// @DnDArgument : "objectid" "obj_playerhurt"
+		/// @DnDArgument : "layer" ""Characters""
+		/// @DnDSaveInfo : "objectid" "obj_playerhurt"
+		instance_create_layer(obj_player.x, obj_player.y, "Characters", obj_playerhurt);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7A86DEF6
+		/// @DnDParent : 08EB5637
+		/// @DnDArgument : "soundid" "sfx_hurt_player"
+		/// @DnDSaveInfo : "soundid" "sfx_hurt_player"
+		audio_play_sound(sfx_hurt_player, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 64398A25
