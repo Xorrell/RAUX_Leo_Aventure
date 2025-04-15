@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.267619,
+  "duration":2.2676191,
   "name":"sfx_death_start",
   "parent":{
     "name":"Negative",

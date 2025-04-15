@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.588821,
+  "duration":0.5888209,
   "name":"sfx_spatk_neu",
   "parent":{
     "name":"Positive",

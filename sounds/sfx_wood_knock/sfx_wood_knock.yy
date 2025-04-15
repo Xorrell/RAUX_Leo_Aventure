@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.333946,
+  "duration":0.33394557,
   "name":"sfx_wood_knock",
   "parent":{
     "name":"Sons",

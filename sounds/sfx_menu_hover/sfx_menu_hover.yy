@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.053515,
+  "duration":0.053514738,
   "name":"sfx_menu_hover",
   "parent":{
     "name":"Menus",

@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"RAUX_Leo_Aventure",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -49,10 +49,10 @@
     {"$GMFolder":"","%Name":"Polices","folderPath":"folders/Polices.yy","name":"Polices","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Remarques","folderPath":"folders/Remarques.yy","name":"Remarques","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"script_music","folderPath":"folders/Scripts/script_music.yy","name":"script_music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script_dialogue","folderPath":"folders/Scripts/script_dialogue.yy","name":"script_dialogue","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script_doortp","folderPath":"folders/Scripts/script_doortp.yy","name":"script_doortp","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script_enemybehavior","folderPath":"folders/Scripts/script_enemybehavior.yy","name":"script_enemybehavior","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"script_music","folderPath":"folders/Scripts/script_music.yy","name":"script_music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"script_player","folderPath":"folders/Scripts/script_player.yy","name":"script_player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"player_hp","folderPath":"folders/Scripts/script_player/player_hp.yy","name":"player_hp","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"stepsfx","folderPath":"folders/Scripts/script_player/stepsfx.yy","name":"stepsfx","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -92,11 +92,12 @@
     {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Sprites/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile sets","folderPath":"folders/Tile sets.yy","name":"Tile sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"RAUX_Leo_Aventure",
   "resources":[

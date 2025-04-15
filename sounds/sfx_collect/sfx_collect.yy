@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.260227,
+  "duration":0.26022676,
   "name":"sfx_collect",
   "parent":{
     "name":"Positive",

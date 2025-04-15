@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.363311,
+  "duration":0.36331066,
   "name":"sfx_lasthp",
   "parent":{
     "name":"Negative",

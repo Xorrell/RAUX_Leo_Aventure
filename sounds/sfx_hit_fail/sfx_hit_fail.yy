@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.316032,
+  "duration":0.31603175,
   "name":"sfx_hit_fail",
   "parent":{
     "name":"Negative",
