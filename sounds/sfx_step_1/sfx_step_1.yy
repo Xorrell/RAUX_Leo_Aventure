@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.133968,
+  "duration":0.13396825,
   "name":"sfx_step_1",
   "parent":{
     "name":"Ambiance",
