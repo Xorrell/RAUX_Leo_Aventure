@@ -3,7 +3,15 @@
 /// @DnDHash : 70AA8D5E
 /// @DnDComment : Find the door's "ID" based on unique aspects
 /// @DnDArgument : "funcName" "scr_door_findID"
-function scr_door_findID() {	/// @DnDAction : YoYo Games.Common.If_Variable
+function scr_door_findID() {	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 46A31283
+	/// @DnDDisabled : 1
+	/// @DnDParent : 70AA8D5E
+	/// @DnDArgument : "msg" "door_ID"
+
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 118981C2
 	/// @DnDParent : 70AA8D5E
@@ -35,7 +43,14 @@ function scr_door_findID() {	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDArgument : "objectid" "obj_doorzone"
 			/// @DnDArgument : "layer" ""GUI""
 			/// @DnDSaveInfo : "objectid" "obj_doorzone"
-			instance_create_layer(x + 0, y + 0, "GUI", obj_doorzone);}}
+			instance_create_layer(x + 0, y + 0, "GUI", obj_doorzone);
+		
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 502AA7F1
+			/// @DnDDisabled : 1
+			/// @DnDParent : 47EBD557
+			/// @DnDArgument : "msg" "door_ID"}}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
