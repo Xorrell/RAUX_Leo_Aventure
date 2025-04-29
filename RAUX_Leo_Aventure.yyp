@@ -161,6 +161,7 @@
     {"id":{"name":"obj_thrw_balloon","path":"objects/obj_thrw_balloon/obj_thrw_balloon.yy",},},
     {"id":{"name":"obj_thrw_pie","path":"objects/obj_thrw_pie/obj_thrw_pie.yy",},},
     {"id":{"name":"obj_thrw_tomato","path":"objects/obj_thrw_tomato/obj_thrw_tomato.yy",},},
+    {"id":{"name":"obj_travel_dud","path":"objects/obj_travel_dud/obj_travel_dud.yy",},},
     {"id":{"name":"obj_travel","path":"objects/obj_travel/obj_travel.yy",},},
     {"id":{"name":"obj_vector","path":"objects/obj_vector/obj_vector.yy",},},
     {"id":{"name":"obj_vectortarget","path":"objects/obj_vectortarget/obj_vectortarget.yy",},},
