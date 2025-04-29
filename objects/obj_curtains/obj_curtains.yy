@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_curtains",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_curtains",
@@ -12,7 +12,7 @@
     "path":"folders/Objets/GUI/Gameplay.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"curtains",
-    "path":"sprites/curtains/curtains.yy",
+    "name":"spr_curtains_close",
+    "path":"sprites/spr_curtains_close/spr_curtains_close.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_travel_tp",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_travel_tp",
+  "parent":{
+    "name":"script_doortp",
+    "path":"folders/Scripts/script_doortp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
