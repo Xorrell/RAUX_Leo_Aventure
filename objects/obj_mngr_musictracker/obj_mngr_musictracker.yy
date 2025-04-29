@@ -25,13 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"vol_mus","filters":[],"listItems":[],"multiselect":false,"name":"vol_mus","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite63",
-    "path":"sprites/Sprite63/Sprite63.yy",
+    "name":"music",
+    "path":"sprites/music/music.yy",
   },
   "spriteMaskId":null,
   "visible":false,
