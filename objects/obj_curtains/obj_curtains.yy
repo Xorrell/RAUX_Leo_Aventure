@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_curtains_close",
-    "path":"sprites/spr_curtains_close/spr_curtains_close.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

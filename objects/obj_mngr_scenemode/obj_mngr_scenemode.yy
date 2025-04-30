@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tomato",
-    "path":"sprites/tomato/tomato.yy",
+    "name":"target",
+    "path":"sprites/target/target.yy",
   },
   "spriteMaskId":null,
   "visible":false,

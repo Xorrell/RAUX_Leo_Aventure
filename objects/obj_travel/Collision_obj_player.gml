@@ -16,13 +16,6 @@ if(!(player_presence == true)){	/// @DnDAction : YoYo Games.Common.Variable
 	player_presence = true;
 	obj_player.player_teleporting = true;
 
-	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 7EDC335B
-	/// @DnDApplyTo : {obj_curtains}
-	/// @DnDParent : 30FFE7D7
-	with(obj_curtains) image_speed = 1;
-
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 2ABEDF48

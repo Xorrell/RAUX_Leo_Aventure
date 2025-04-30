@@ -9,6 +9,6 @@ if(!(count_tomato == 0)){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Tran
 	/// @DnDParent : 6C8B68AD
 	/// @DnDArgument : "x" "800"
 	/// @DnDArgument : "y" "672"
-	/// @DnDArgument : "sprite" "tomato"
-	/// @DnDSaveInfo : "sprite" "tomato"
-	draw_sprite_ext(tomato, 0, 800, 672, 1, 1, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDArgument : "sprite" "spr_item_tomato"
+	/// @DnDSaveInfo : "sprite" "spr_item_tomato"
+	draw_sprite_ext(spr_item_tomato, 0, 800, 672, 1, 1, 0, $FFFFFF & $ffffff, 1);}

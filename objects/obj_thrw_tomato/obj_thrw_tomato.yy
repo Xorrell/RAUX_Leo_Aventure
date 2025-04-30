@@ -9,13 +9,13 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Throwables",
-    "path":"folders/Objets/Entities/Items/Throwables.yy",
+    "path":"folders/Objets/GUI/Gameplay/Throwables.yy",
   },
   "parentObjectId":{
     "name":"obj_mngr_items",
     "path":"objects/obj_mngr_items/obj_mngr_items.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

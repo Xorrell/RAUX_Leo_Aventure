@@ -38,13 +38,6 @@ instance_create_layer(1376, 704, "GUI", obj_stagesideright);
 /// @DnDSaveInfo : "objectid" "obj_curtains"
 instance_create_layer(860, -100, "GUI", obj_curtains);
 
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 69AAF7FA
-/// @DnDApplyTo : {obj_curtains}
-/// @DnDArgument : "speed" "0"
-with(obj_curtains) image_speed = 0;
-
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 025DB71D
@@ -53,8 +46,3 @@ with(obj_curtains) image_speed = 0;
 /// @DnDArgument : "layer" ""GUI""
 /// @DnDSaveInfo : "objectid" "obj_stagelights"
 instance_create_layer(896, 0, "GUI", obj_stagelights);
-
-/// @DnDAction : YoYo Games.Common.Exit_Event
-/// @DnDVersion : 1
-/// @DnDHash : 5766DFCF
-exit;

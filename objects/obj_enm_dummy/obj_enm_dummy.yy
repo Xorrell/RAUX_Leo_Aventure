@@ -37,7 +37,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_enm_dummy",
     "path":"sprites/spr_enm_dummy/spr_enm_dummy.yy",
