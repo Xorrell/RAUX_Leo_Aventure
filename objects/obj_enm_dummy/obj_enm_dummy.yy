@@ -1,11 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_enm_dummy",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_sword_atksp_neu","path":"objects/obj_sword_atksp_neu/obj_sword_atksp_neu.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_attackswing","path":"objects/obj_attackswing/obj_attackswing.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_enm_dummy",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_prnt","path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",},"propertyId":{"name":"enemy_hp","path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_prnt","path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",},"propertyId":{"name":"enemy_hp","path":"objects/obj_enemy_prnt/obj_enemy_prnt.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"999",},
   ],
   "parent":{
     "name":"Enemies",
@@ -33,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"dummy",
-    "path":"sprites/dummy/dummy.yy",
+    "name":"spr_enm_dummy",
+    "path":"sprites/spr_enm_dummy/spr_enm_dummy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

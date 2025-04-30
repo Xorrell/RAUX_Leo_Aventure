@@ -33,6 +33,7 @@
         "\"mantion_path_1\"",
         "\"def\"",
       ],"multiselect":false,"name":"travel_ID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"player_presence","filters":[],"listItems":[],"multiselect":false,"name":"player_presence","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
@@ -42,5 +43,5 @@
     "path":"sprites/warp/warp.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
