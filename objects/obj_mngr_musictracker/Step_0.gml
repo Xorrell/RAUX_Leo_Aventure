@@ -30,8 +30,9 @@ if(currentroom == Town or mansion_entrance){	/// @DnDAction : YoYo Games.Audio
 		/// @DnDParent : 24C79DE7
 		/// @DnDArgument : "soundid" "FablesForest"
 		/// @DnDArgument : "loop" "1"
+		/// @DnDArgument : "gain" "0.5"
 		/// @DnDSaveInfo : "soundid" "FablesForest"
-		audio_play_sound(FablesForest, 0, 1, 1.0, undefined, 1.0);
+		audio_play_sound(FablesForest, 0, 1, 0.5, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Audio.Set_Audio_Loop_Start
 		/// @DnDVersion : 1
@@ -53,10 +54,41 @@ var l664816CA_0 = false;l664816CA_0 = instance_exists(obj_player);if(l664816CA
 	/// @DnDParent : 664816CA
 	/// @DnDArgument : "var" "obj_mngr_hp.player_hp"
 	/// @DnDArgument : "op" "3"
-	if(obj_mngr_hp.player_hp <= 0){	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	if(obj_mngr_hp.player_hp <= 0){	/// @DnDAction : YoYo Games.Audio.Pause_Audio
 		/// @DnDVersion : 1
-		/// @DnDHash : 56D206DA
+		/// @DnDHash : 24E4F4A7
 		/// @DnDParent : 0F8C7340
-		/// @DnDArgument : "soundid" "FablesForest"
-		/// @DnDSaveInfo : "soundid" "FablesForest"
-		audio_stop_sound(FablesForest);}}
+		/// @DnDArgument : "sound" "FablesForest"
+		/// @DnDSaveInfo : "sound" "FablesForest"
+		audio_pause_sound(FablesForest);}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0E625CB2
+/// @DnDArgument : "var" "currentroom"
+/// @DnDArgument : "value" "mansion_dungeon"
+if(currentroom == mansion_dungeon){	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+	/// @DnDVersion : 1
+	/// @DnDHash : 6B5E5911
+	/// @DnDParent : 0E625CB2
+	/// @DnDArgument : "soundid" "WickedWansion"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "soundid" "WickedWansion"
+	var l6B5E5911_0 = WickedWansion;if (!audio_is_playing(l6B5E5911_0)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 43EB0D16
+		/// @DnDParent : 6B5E5911
+		/// @DnDArgument : "soundid" "WickedWansion"
+		/// @DnDArgument : "loop" "1"
+		/// @DnDArgument : "gain" "0.5"
+		/// @DnDSaveInfo : "soundid" "WickedWansion"
+		audio_play_sound(WickedWansion, 0, 1, 0.5, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Audio.Set_Audio_Loop_Start
+		/// @DnDVersion : 1
+		/// @DnDHash : 503F21B4
+		/// @DnDParent : 6B5E5911
+		/// @DnDArgument : "idx" "WickedWansion"
+		/// @DnDArgument : "offset" "10.69"
+		/// @DnDSaveInfo : "idx" "WickedWansion"
+		audio_sound_loop_start(WickedWansion, 10.69);}}
