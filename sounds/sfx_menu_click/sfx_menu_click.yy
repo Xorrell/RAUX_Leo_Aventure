@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.116803,
+  "duration":0.11680272,
   "name":"sfx_menu_click",
   "parent":{
     "name":"Menus",
