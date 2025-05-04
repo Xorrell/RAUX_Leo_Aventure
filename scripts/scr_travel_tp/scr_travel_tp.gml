@@ -77,4 +77,40 @@ function scr_travel_tp() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDArgument : "msg" "obj_player.x"
 		/// @DnDArgument : "msg_1" "obj_player.y"
 		show_debug_message(string(obj_player.x) + @"
+		" + string(obj_player.y));}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 03E5C408
+	/// @DnDParent : 320882A5
+	/// @DnDArgument : "var" "obj_travel.travel_ID"
+	/// @DnDArgument : "value" "3"
+	if(obj_travel.travel_ID == 3){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 448C6E22
+		/// @DnDParent : 03E5C408
+		/// @DnDArgument : "room" "mansion_dungeon"
+		/// @DnDSaveInfo : "room" "mansion_dungeon"
+		room_goto(mansion_dungeon);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3173B0EB
+		/// @DnDInput : 2
+		/// @DnDParent : 03E5C408
+		/// @DnDArgument : "expr" "1992"
+		/// @DnDArgument : "expr_1" "3550"
+		/// @DnDArgument : "var" "obj_player.x"
+		/// @DnDArgument : "var_1" "obj_player.y"
+		obj_player.x = 1992;
+		obj_player.y = 3550;
+	
+		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+		/// @DnDVersion : 1
+		/// @DnDHash : 5AD4771A
+		/// @DnDInput : 2
+		/// @DnDParent : 03E5C408
+		/// @DnDArgument : "msg" "obj_player.x"
+		/// @DnDArgument : "msg_1" "obj_player.y"
+		show_debug_message(string(obj_player.x) + @"
 		" + string(obj_player.y));}}

@@ -65,6 +65,6 @@ function scr_door_tp() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 33F713E2
 		/// @DnDParent : 4C00F62E
-		/// @DnDArgument : "room" "mansion_dungeon"
-		/// @DnDSaveInfo : "room" "mansion_dungeon"
-		room_goto(mansion_dungeon);}}
+		/// @DnDArgument : "room" "GrandmaHome"
+		/// @DnDSaveInfo : "room" "GrandmaHome"
+		room_goto(GrandmaHome);}}

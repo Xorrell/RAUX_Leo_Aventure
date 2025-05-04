@@ -34,5 +34,5 @@
     "path":"sprites/collider_h/collider_h.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

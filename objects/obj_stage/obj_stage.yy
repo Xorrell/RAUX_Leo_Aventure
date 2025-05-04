@@ -9,8 +9,8 @@
   "name":"obj_stage",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gameplay",
-    "path":"folders/Objets/GUI/Gameplay.yy",
+    "name":"Theater",
+    "path":"folders/Objets/GUI/Gameplay/Theater.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"hp",
-    "path":"sprites/hp/hp.yy",
+    "name":"npc",
+    "path":"sprites/npc/npc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

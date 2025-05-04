@@ -8,8 +8,8 @@
   "name":"obj_basket",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gameplay",
-    "path":"folders/Objets/GUI/Gameplay.yy",
+    "name":"Theater",
+    "path":"folders/Objets/GUI/Gameplay/Theater.yy",
   },
   "parentObjectId":null,
   "persistent":true,
