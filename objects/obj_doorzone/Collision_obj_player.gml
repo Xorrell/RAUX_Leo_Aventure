@@ -27,6 +27,7 @@ var l5B8DA414_0;l5B8DA414_0 = keyboard_check_pressed(ord("K"));if (l5B8DA414_0
 	/// @DnDParent : 5B8DA414
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "target" ""
 	/// @DnDArgument : "object" "obj_door"
 	/// @DnDSaveInfo : "object" "obj_door"
 	var l63952863_0 = instance_place(x + 0, y + 0, [obj_door]);if ((l63952863_0 > 0)){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message

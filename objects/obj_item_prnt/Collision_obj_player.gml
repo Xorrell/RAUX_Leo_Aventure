@@ -2,8 +2,9 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 5C656A7C
 /// @DnDArgument : "soundid" "sfx_collect"
+/// @DnDArgument : "gain" "0.5"
 /// @DnDSaveInfo : "soundid" "sfx_collect"
-audio_play_sound(sfx_collect, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(sfx_collect, 0, 0, 0.5, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

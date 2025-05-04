@@ -28,28 +28,7 @@ if(scenemode == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDArgument : "var" "enemycount"
 	/// @DnDArgument : "object" "obj_enm_dummy"
 	/// @DnDSaveInfo : "object" "obj_enm_dummy"
-	enemycount = instance_number(obj_enm_dummy);
-
-	/// @DnDAction : YoYo Games.Loops.Repeat
-	/// @DnDVersion : 1
-	/// @DnDHash : 09C92DEB
-	/// @DnDParent : 1D11B77C
-	/// @DnDArgument : "times" "enemycount"
-	repeat(enemycount){	/// @DnDAction : YoYo Games.Drawing.Set_Alpha
-		/// @DnDVersion : 1
-		/// @DnDHash : 7284D1CC
-		/// @DnDParent : 09C92DEB
-		draw_set_alpha(1);
-	
-		/// @DnDAction : YoYo Games.Drawing.Draw_Line
-		/// @DnDVersion : 1
-		/// @DnDHash : 36EA5080
-		/// @DnDParent : 09C92DEB
-		/// @DnDArgument : "x1" "obj_player.x"
-		/// @DnDArgument : "y1" "obj_player.y"
-		/// @DnDArgument : "x2" "obj_enm_dummy.x"
-		/// @DnDArgument : "y2" "obj_enm_dummy.y"
-		draw_line(obj_player.x, obj_player.y, obj_enm_dummy.x, obj_enm_dummy.y);}}
+	enemycount = instance_number(obj_enm_dummy);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

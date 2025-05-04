@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_thrw_balloon",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_thrw_balloon",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"Throwables",
     "path":"folders/Objets/GUI/Gameplay/Throwables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_mngr_items",
+    "path":"objects/obj_mngr_items/obj_mngr_items.yy",
+  },
   "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

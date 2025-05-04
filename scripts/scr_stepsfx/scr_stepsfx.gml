@@ -43,9 +43,9 @@ function scr_stepsfx() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 587EDF86
 		/// @DnDParent : 0C155109
 		/// @DnDArgument : "soundid" "sfx_step_0"
-		/// @DnDArgument : "gain" "0.5"
+		/// @DnDArgument : "gain" "0"
 		/// @DnDSaveInfo : "soundid" "sfx_step_0"
-		audio_play_sound(sfx_step_0, 0, 0, 0.5, undefined, 1.0);
+		audio_play_sound(sfx_step_0, 0, 0, 0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 		/// @DnDVersion : 1

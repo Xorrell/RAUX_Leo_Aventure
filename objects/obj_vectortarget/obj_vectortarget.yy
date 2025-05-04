@@ -35,5 +35,5 @@
     "path":"sprites/vectortarget/vectortarget.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
