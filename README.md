@@ -24,7 +24,7 @@ A l'instare de M. Leuquan, vous contrôllerez donc les évènements se déroulan
 | L | Changer d'Objet Projectile
 | M | Carte du Monde / Bâtiment
 
-### Manette:
+### Manette (contrôles non terminés):
 | Bouton(s) | Fonction(s) | Information
 |-|-|-|
 | Joystick Gauche | Se Déplacer
