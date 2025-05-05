@@ -32,9 +32,9 @@ function scr_gameover() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 14689338
 	/// @DnDParent : 674194BA
 	/// @DnDArgument : "soundid" "sfx_death_start"
-	/// @DnDArgument : "gain" "1.2"
+	/// @DnDArgument : "gain" "0.4"
 	/// @DnDSaveInfo : "soundid" "sfx_death_start"
-	audio_play_sound(sfx_death_start, 0, 0, 1.2, undefined, 1.0);
+	audio_play_sound(sfx_death_start, 0, 0, 0.4, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
 	/// @DnDVersion : 1
