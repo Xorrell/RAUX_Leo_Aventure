@@ -1,6 +1,8 @@
 # RAUX_Leo_Aventure
 
-## Histoire
+## Intrigue originale
+note: certains éléments n'ont pas pu être présenté dans le jeu.
+
 **Nonokeke**, jeune élève d'une école de théâtre, est l'actrice principale d'une pièce de fin d'année, et est accompagnée de **M. Leuquan**, le producteur et son tuteur.
 
 Nonokeke devra jouer dans une scène de théâtre inspiré de nombreux comptes et fables différentes.
@@ -17,6 +19,7 @@ A l'instare de M. Leuquan, vous contrôllerez donc les évènements se déroulan
 | Z-Q-S-D | Se Déplacer | (Peut être modifié pour "W-A-S-D" dans les options)
 | K | Attaquer / Interagir
 | K (Enfoncé) | Attaque Spéciale | L'effet de l'Attaque Spéciale peut changer selon l'état de Nonokeke.
+| Manquants |
 | J | Mode "Cible Public" | La cible se déplacera sur l'élément le plus proche du joueur.
 | L | Changer d'Objet Projectile
 | M | Carte du Monde / Bâtiment
